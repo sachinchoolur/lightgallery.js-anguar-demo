@@ -24,9 +24,12 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/lightgallery.js/dist/css/lightgallery.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/lightgallery.js/dist/js/lightgallery.js",
+            ]
           },
           "configurations": {
             "production": {
