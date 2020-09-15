@@ -16,6 +16,10 @@ Install required [plugin ](https://github.com/sachinchoolur/lightgallery.js#buil
 Add lightgallery to the runtime global scope
 
  1) Add lightgallery.js path to the `scripts` field in the angular.json file
+ 
+ Note: Do not include any lightGallery plugins in the script tag. 
+ 
+ You need to import them in the component file - Described in step 4
 ```
 "scripts": [
   "node_modules/lightgallery.js/dist/js/lightgallery.js",
@@ -24,9 +28,9 @@ Add lightgallery to the runtime global scope
 
 2) Add lightgallery.css path to the `styles` field in the angular.json file
 ```
-"scripts": [
-  "node_modules/lightgallery.js/dist/js/lightgallery.js",
-]
+"styles": [
+  "node_modules/lightgallery.js/dist/css/lightgallery.css",
+],
 ```
 
 #### Step 3 
