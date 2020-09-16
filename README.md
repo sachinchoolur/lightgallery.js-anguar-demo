@@ -1,4 +1,4 @@
-# lightgallery.js demo with Angular
+# [lightgallery.js](https://github.com/sachinchoolur/lightgallery.js) demo with Angular
 
 
 #### Step 1
